@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".QuestionActivity">
+
+    <TextView
+        android:id="@+id/textoPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ENTER YOUR QUESTION"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:progress="0"
+            android:max="5"
+            android:minHeight="50dp"
+            style="?android:progressBarStyleHorizontal"/>
+            />
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/5"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/opc_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="option 1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/question_option"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/opc_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="option 2"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/question_option"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/opc_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="option 1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/question_option"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/opc_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="option 1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/question_option"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/opc_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="option 1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/question_option"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/botaoResponder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Escolher"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
